@@ -1,0 +1,45 @@
+<html>
+<head>
+    <title>Typeless Sandbox API Documentation</title>
+    <style>
+        .url-font {
+            font-family: 'Courier New', Courier, monospace;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Typeless Sandbox API v1.0 - Documentation</h1>
+    
+    <hr>
+    
+    
+    <h2>Send Slack message</h2>
+    <p>
+        <b>Description</b>
+        <br>
+        Send a Slack message to Typeless.
+    </p>
+    <p>
+        <span class="url-font">
+            GET http://localhost/typeless-sandbox-api/api/send_message.php?uid=111&mid=222&message=something
+        </span>
+        
+        <br><br>
+        where:
+
+        <ul>
+            <li>
+                <b>uid</b> parameter value is a non-empty numeric value (your Slack user ID)
+            </li>
+        </ul>
+
+    </p>
+    
+    <hr>
+
+    
+    <footer>&copy; Copyright 2023 Typeless Pte. Ltd.</footer>
+</body>
+</html>
